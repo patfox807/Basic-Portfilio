@@ -1,6 +1,7 @@
 body {
   background-image: url("../images/background.png");
   margin: 0;
+  height: 100%;
   }
   nav {
     background-color: white;
@@ -17,13 +18,13 @@ body {
   font-size: 25px;
   font-weight: bold;
   margin: 0px;
-  margin-left: 200px;
+  margin-left: 290px;
   }
 .menu {
   float: right;
   margin: 0;
   background-color: white;
-  margin-right: 200px;
+  margin-right: 290px;
 }
 h2 {
   color: #4aaaa5;
@@ -47,7 +48,6 @@ h2 {
   width: 100%;
   height: auto;
   font-size: 25px;
-  text-align:
 }
 .about-me:after {
   content: '';
@@ -71,6 +71,7 @@ h2 {
   max-width: 100%;
 }
 #container {
+  max-width: 960px;
   margin: auto;
   width: 75%;
   background-color: white;
@@ -85,10 +86,11 @@ h2 {
     text-align: center;
     border-top: 8px solid #4aaaa5;
     color: white;
+    margin: 0;
   }
 .contact-form {
   width: 85%;
-  max-width: 600px;
+  max-width: 960px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -98,7 +100,6 @@ h2 {
   text-align: left;
   box-shadow: 0 0 20px #000000b3;
   font-family: sans-serif;
-  color:
 }
 .contact-form h1 {
   margin-top: 0;
@@ -129,7 +130,47 @@ h2 {
 .contact-form {
   color: #4aaaa5;
 }
-.portfolio {
-  width 33%
-  float: left;
+
+.Portfolio h2 {
+  font-size: 50px;
+  text-align: left;
 }
+  .Portfolio .Hangman {
+    color: white;
+    font: Sans-Serif;   
+    background: #4aaaa5;
+    float: left;
+    text-align: center;
+    margin-right: 20px;
+  }
+  .Portfolio .RPG-Game {
+    color: white; 
+    font: Sans-Serif;  
+    background: #4aaaa5;
+    float: left;
+    text-align: center;
+    margin-right: 20px;
+  }
+  .Portfolio .Trivia-Game {
+    color: white; 
+    font: Sans-Serif;  
+    background: #4aaaa5;
+    float: left;
+    text-align: center;
+    margin-right: 20px;
+  }
+  .Portfolio .Rutgets-Info-Widget {
+    color: white; 
+    font: Sans-Serif;   
+    background: #4aaaa5;
+    float: left;
+    text-align: center;
+    margin-right: 20px;
+  }
+  .Portfolio .Rock-Paper-Scissors {
+    color: white; 
+    font: Sans-Serif;   
+    background: #4aaaa5;
+    float: left;
+    text-align: center;
+ 
